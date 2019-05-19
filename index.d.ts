@@ -26,8 +26,12 @@ declare namespace Parser {
     title?: string;
     pubDate?: string;
     creator?: string;
+    author?: string;
     content?: string;
     isoDate?: string;
+    thumbnail?: string;
+    videoid?: string;
+    description?: string;
     categories?: string[];
     contentSnippet?: string;
   }
